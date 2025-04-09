@@ -1,0 +1,29 @@
+<!-- <div>
+    {{ currentTime$ | json }}
+    <p>Current Time: {{ currentTime$ | async | date:'medium' }}</p>
+  </div> -->
+  <button class="btn btn-primary" (click)="onCollapse()">Toggle</button>
+  <app-form></app-form>
+
+  <table class="table">
+      <thead>
+          <tr>
+              <th>S.no</th>
+              <th>Title</th>
+              <th>Body</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+            @for (item of tableData; track item.id;) {
+                <!-- *ngFor="let item of tableData" -->
+                <tr >
+                    <td>{{ item.id }}</td>
+                    <td>{{ item.title }}</td>
+                    <td>{{ item.body }}</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    
+    
