@@ -18,7 +18,7 @@ ${n.map((r,o)=>`${o+1}) ${r.toString()}`).join(`
                 //onSubmit: startCheckout,
                 theme: {
                     iframe: {
-                     style:  "${window.location.origin}/example.css",
+                     style:  "${window.location.origin}/crud/example.css",
                         cardNumber: {
                             style: function(field) {
                                 return {
