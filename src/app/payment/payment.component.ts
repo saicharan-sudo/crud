@@ -57,7 +57,7 @@ export class PaymentComponent implements OnInit {
                 //onSubmit: startCheckout,
                 theme: {
                     iframe: {
-                     style:  "${window.location.origin}/example.css",
+                     style:  "${window.location.origin}/crud/example.css",
                         cardNumber: {
                             style: function(field) {
                                 return {
