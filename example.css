@@ -1,0 +1,6 @@
+html, body.obick-iframe, form.obick-iframe-form, .obick-iframe-group, .obick-iframe-field {
+    border: 1px solid #ED7000 !important;
+    border-bottom: 2px solid #ED7000 !important;
+    height: 40px;
+
+}
