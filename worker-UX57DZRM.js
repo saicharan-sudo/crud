@@ -1,1 +1,0 @@
-var t=0,n={};addEventListener("message",({data:e})=>{console.log(e),o()});function o(){fetch("https://jsonplaceholder.typicode.com/posts").then(e=>e.json()).then(e=>{console.log(e),n[t]=e,t++,t<3?o():postMessage(n)})}
